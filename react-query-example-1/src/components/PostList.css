@@ -2,6 +2,32 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 98vw;
+}
+
+.postbox {
+  padding: 6px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.tags {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  margin: 10px;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+}
+
+.tag {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .post {
@@ -11,6 +37,20 @@
   border-radius: 5px;
   padding: 10px;
   background-color: #f2f3f2;
+}
+
+.post_btn {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  background-color: rgb(52, 52, 52);
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
 }
 
 .post > span {
